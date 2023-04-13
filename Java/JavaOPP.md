@@ -55,3 +55,16 @@ SOLID:
     liskov substitution derived classes extend without replacing the functionality of old classes
     interface segregation
     dependency inversion - high level modules do not depend on low-level modules, both should depend on abstractions
+
+Reflection - the ability of the programming language to be its own metalanguage
+Annotations - @Override, @Deprecate
+
+Tests are system, integration, unit
+
+Design patterns types:
+    Creational patterns - initialization and configuration of classes and objects
+    Structural patterns - composition of classes and objects -> describe ways to assmeble objects to implement new functionality
+    Behavioral patterns - deal with dynamic interactions among societies of classes -> distribute responsibility
+
+see
+https://medium.com/ssense-tech/dependency-injection-vs-dependency-inversion-vs-inversion-of-control-lets-set-the-record-straight-5dc818dc32d1
