@@ -48,4 +48,10 @@ Polymorphism
 Two types of polymorphism 
     Method overrriding (runtime) - the ability for a subclass to override a method allows a class to inherit from a superclass with 'near enough' actions and then change it as required. Overriding methods need to return the same type as the overridden method.
     Method overloading (compile) - one class having same named methods that accept different number of arguments
-    
+
+SOLID:
+    single responsibility - each class should have only one responsibility
+    open/closed - open for extensions, closed for modifications
+    liskov substitution derived classes extend without replacing the functionality of old classes
+    interface segregation
+    dependency inversion - high level modules do not depend on low-level modules, both should depend on abstractions
