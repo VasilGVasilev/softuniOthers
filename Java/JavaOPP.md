@@ -67,4 +67,19 @@ Design patterns types:
     Behavioral patterns - deal with dynamic interactions among societies of classes -> distribute responsibility
 
 see
+
 https://medium.com/ssense-tech/dependency-injection-vs-dependency-inversion-vs-inversion-of-control-lets-set-the-record-straight-5dc818dc32d1
+
+Article:
+
+    Inversion of Control (IoC) is a design principle that refers to a way of designing software components to promote loose coupling and modularity. In IoC, the flow of control of a program is inverted, meaning that instead of a component controlling the flow of a program, it is managed by an external framework or container.
+
+    In traditional programming, each component is responsible for controlling the flow of the program by calling other components and managing their behavior. With IoC, the framework or container manages the components, and the components are designed to respond to events or calls from the framework. This allows for greater flexibility and easier management of the program's behavior.
+
+    IoC in React: 
+        VDOM
+            The Virtual DOM (VDOM) in React is an example of inversion of control because it shifts the responsibility of managing the actual DOM from the DEVELOPER to React. The VDOM is a lightweight representation of the actual DOM that is created and managed by React. When a component's state or props change, React compares the new VDOM with the previous VDOM and determines the minimum number of changes that need to be made to update the actual DOM. This means that the developer does not need to manage the DOM directly, and can instead focus on defining the behavior and structure of the components.
+        Context API
+            Another way that IoC is used in React is through the use of the context API. Context allows for the passing of data through the component tree without having to manually pass props down through each level. This allows for greater flexibility and easier management of data in the application.
+
+    IoC is often implemented through the use of Dependency Injection (DI), which is a technique for providing the dependencies of a component from an external source rather than having the component create them itself. This enables the components to be easily swapped out and replaced without affecting the rest of the program's behavior. It separates the construction and configuration of services from its usage, relieving the dependent class from the former responsibility, decoupling it from its dependencies, and improving reusability and ease to test.
