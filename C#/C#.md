@@ -7,3 +7,7 @@ C# primitives are objects due to being alias of .Net types which are objects, wh
     in C#: 
         List<Integer> intlist .yes
         List<int> intlist .yes
+
+C# provides syntax for some feature, while Java accomplishes it via a class
+
+In Java primitives are values types, classes are reference types, C# lets you choose the type (use ref, but also class is reference, struct is value by default)
