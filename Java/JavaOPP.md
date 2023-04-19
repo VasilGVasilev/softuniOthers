@@ -44,6 +44,7 @@ The abstract keyword is a non-access modifier (public, private, protected are ac
     Why use Interfaces to achieve greater abstraction? - Remember, a Java class can only have 1 superclass, but it can implement multiple interfaces. Thus, if a class already has a different superclass, it can implement an interface, but it cannot extend another abstract class. Therefore interfaces are a more flexible mechanism for exposing a common interface.
 
 Polymorphism
+basic is about inheritance, but often with overriding or overloading, thus, the poly morphus thing 
 
 Two types of polymorphism 
     Method overrriding (runtime) - the ability for a subclass to override a method allows a class to inherit from a superclass with 'near enough' actions and then change it as required. Overriding methods need to return the same type as the overridden method.
